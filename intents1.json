@@ -1,0 +1,64 @@
+{"intents": [
+        {"tag": "Q1",
+         "patterns": ["hello","hello cguider","hello CID"],
+         "responses": ["Hello, I am C guider.your career guidance robot.Are you suffering about your career? I like to help you to choose better you. What is your Degree? Special or General or Extended?.Please give the single answer."],
+         "context_set": ""
+        },
+        {"tag": "Q2",
+         "patterns": ["general", "special", "extended"],
+         "responses": ["What is your class in degree? First class or Second upper or second lower or General pass?"],
+         "context_set": ""
+        },
+        {"tag": "Q3",
+         "patterns": ["first class","second upper","second lower","general pass","II","second up","second appa","second Appa","second","II II"],
+         "responses": ["what are the courses you did in these? Software Engineering and Management? or not follow"],
+         "context_set": ""
+        },
+        {"tag": "Q4",
+         "patterns": ["management", "software engineering", "not follow","none","Nan","Software engineering"],
+         "responses": ["How about the your SQL knowledge?  Is that extremely well or a little bit"],
+         "context_set": ""
+        },
+        {"tag": "Q5",
+         "patterns": ["very well", "little bit","very","extremely well"],
+         "responses": ["Can you code using JavaScript?"],
+         "context_set": ""
+        },
+        {"tag": "Q6",
+         "patterns": ["I can", "I can't"],
+         "responses": ["Are you fast learner? yes or no"],
+         "context_set": ""
+        },
+        {"tag": "Q7",
+         "patterns": ["yes", "no"],
+         "responses": ["Are you have critical thinking knowledge?"],
+         "context_set": ""
+        },
+        {"tag": "Q8",
+         "patterns": ["I have", "I haven't"],
+         "responses": ["How about the your communication skills. Is that high or moderate or low?"],
+         "context_set": ""
+        },
+        {"tag": "Q9",
+         "patterns": ["low", "moderate", "high","hi"],
+         "responses": ["Are you did other Java courses? you did or did not?"],
+         "context_set": ""
+        },
+        {"tag": "Q10",
+         "patterns": ["I did", "I did not","ID"],
+         "responses": ["How many publications do you have? Did you have One publication or More than one or haven't publications?"],
+         "context_set": ""
+        },
+        {"tag": "Q11",
+         "patterns": ["more than one", "one publication", "no publications","haven't publications"],
+         "responses": ["What is your result in Java programming? Tell me like A or B or C"],
+         "context_set": ""
+        },
+        {"tag": "Q12",
+         "patterns": ["a plus","a","a mine","b plus","b","b mine","c plus","c","A+","A","B+","B","B-","C+","C"],
+         "responses": ["I'm trying to select best career path"],
+         "context_set": ""
+        }
+        
+   ]
+}
